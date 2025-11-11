@@ -1,63 +1,33 @@
 body {
-  margin: 0;
-  font-family: "Poppins", sans-serif;
-  color: #fff;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: Arial, sans-serif;
   text-align: center;
+  background: #f2f2f2;
+  color: #333;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1 {
+  color: #333;
+}
+
+input, button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+button {
+  cursor: pointer;
 }
 
 .hidden {
   display: none !important;
 }
 
-.card {
-  background: rgba(255, 255, 255, 0.15);
-  border-radius: 20px;
-  padding: 20px;
-  margin: 20px 0;
-  backdrop-filter: blur(8px);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+.page {
+  display: none;
 }
 
-.title {
-  font-size: 2.4em;
-  margin-bottom: 10px;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
-}
-
-input {
+.page.active {
   display: block;
-  width: 100%;
-  padding: 10px;
-  margin: 8px 0 16px 0;
-  border-radius: 10px;
-  border: none;
-  text-align: center;
-}
-
-.teal-btn {
-  background: linear-gradient(135deg, #20c997, #00bfa6);
-  color: #fff;
-  border: none;
-  padding: 12px 20px;
-  border-radius: 25px;
-  font-size: 1em;
-  cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.teal-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
-}
-
-.room-code {
-  font-size: 1.2em;
-  font-weight: bold;
-  color: #ffeb3b;
-  margin-top: 10px;
 }
